@@ -3,7 +3,7 @@
 @import url('https://fonts.cdnfonts.com/css/gentleman-2');
 @font-face {
     font-family: 'Hacen Saudi Arabia';
-    src: url('fonts/Hacen\ Saudi\ Arabia.ttf') format('truetype'); /* تأكد من استخدام المسار الصحيح */
+    src: url('..\fonts/Hacen\ Saudi\ Arabia.ttf') format('truetype'); /* تأكد من استخدام المسار الصحيح */
 }
 /* font-family: "IBM Plex Sans Arabic", serif;  ARABIC*/
 /* font-family: "Montserrat", sans-serif;       ENGLISH */
