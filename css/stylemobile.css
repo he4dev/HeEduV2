@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+    .welcome-main{
+        padding-top: 7rem;
+    }
+    .welcome-btns{
+        margin-top: 60px;
+    }
+    .welcome-btn{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .signup-main{
+        padding-top: 9rem;
+    }
+    .signup-main img{
+        width: 90px;
+    }
+    .signup-main-btn{
+        margin-top: 3rem;
+    }
+}
