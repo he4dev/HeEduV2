@@ -10,12 +10,16 @@
         font-size: 25px;
     }
     .signup-main{
-        padding-top: 9rem;
+        padding-top: 7rem;
+        width: 100%;
     }
     .signup-main img{
         width: 90px;
     }
     .signup-main-btn{
         margin-top: 3rem;
+    }
+    .signup-inputs{
+        width: 100%;
     }
 }

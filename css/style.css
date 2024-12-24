@@ -80,6 +80,7 @@ body {
 }
 .signup-main{
     height: 100%;
+    width: 40%;
     max-height: 100vh;
     text-align: center;
     padding-top: 1rem;
@@ -97,7 +98,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 400px;
+    width: 100%;
 }
 .signup-input{
     background-color: transparent;
