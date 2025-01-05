@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/gentleman-2');
+@import url('https://fonts.cdnfonts.com/css/fjalla-one-2');
 @font-face {
     font-family: 'Hacen Saudi Arabia';
-    src: url('..\fonts/Hacen\ Saudi\ Arabia.ttf') format('truetype'); /* تأكد من استخدام المسار الصحيح */
+    src: url('fonts/Hacen\ Saudi\ Arabia.ttf') format('truetype'); /* تأكد من استخدام المسار الصحيح */
 }
 /* font-family: "IBM Plex Sans Arabic", serif;  ARABIC*/
 /* font-family: "Montserrat", sans-serif;       ENGLISH */
 /* font-family: 'Gentleman', sans-serif;        LOGO  */
+/* font-family: 'Fjalla One', sans-serif;       MARVEL */
 *{
     padding: 0;
     margin: 0;
@@ -135,4 +137,29 @@ body {
 }
 .signup-main-btn{
     margin-top: 30px;
+}
+.login-main{
+    height: 100%;
+    width: 40%;
+    max-height: 100vh;
+    text-align: center;
+}
+.login-texts{
+    width: 100%;
+    margin-top: 4rem;
+}
+.login-texts h2{
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3.125rem;
+}
+.login-texts h1{
+    margin: 20px 0px;
+    font-family: 'Gentleman', sans-serif;;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+    color: #fcff00;
 }
