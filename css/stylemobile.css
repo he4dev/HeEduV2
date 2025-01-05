@@ -10,7 +10,7 @@
         font-size: 25px;
     }
     .signup-main{
-        padding-top: 7rem;
+        padding-top: 5rem;
         width: 100%;
     }
     .signup-main img{
@@ -27,5 +27,11 @@
     }
     .login-texts h1{
         margin: 35px 0px;
+    }
+    .nav{
+        width: 100%;
+    }
+    .nav-items img{
+        width: 2.5rem;
     }
 }
