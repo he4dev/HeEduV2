@@ -20,6 +20,12 @@
 .arabic-head{
     font-family: 'Hacen Saudi Arabia', sans-serif;
 }
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
 .link{
     text-decoration: none;
     color: whitesmoke;
@@ -164,6 +170,7 @@ body {
     color: #fcff00;
 }
 .nav{
+    background-color: #050146;
     position: fixed;
     bottom: 0;
     border: #707070 3px solid;
